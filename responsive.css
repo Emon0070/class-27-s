@@ -1,17 +1,199 @@
-@media (max-width:768px){
-    .video-content h1 {
-        font-size: 26px;
+
+@media(max-width:1150px){
+    .logo {
+        width: 30%;
     }
-    .video-content p {
-        font-size: 18px;
+    .menu {
+        width: 70%;
 
     }
+    .saime-catagorey {
+        width: 50%;
+        margin-top: 40px;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+    }
+    .about-text h2 {
+        padding-left:0;
+    }
+    .about-text p {
+        font-family: sans-serif;
+        padding: 10px 0 10px 0;
+        color: #666666;
+    }
+    .about-content {
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    .contact-p {
+        padding-top: 20px;
+         }
+}
+/* =============Extra-Csss==================== */
+.menu{position: relative;}
+.menu-bar{
+    position: absolute;
+    right: 40px;
+    top: -42px;
+    font-size: 30px;
+pointer-events: none;
+display: none;
+}
 
-    .service-title h1 {
+.menu .bar{
+        height: 27px;
+        width: 27px;
+        position: absolute;
+        top: -40px;
+        right: 39px;
+        opacity: 0;
+    display: none;
+}
+/* ============Extra-Csss============ */
+
+@media(max-width:850px){
+    .logo {
+        width: 100%;
+      
+    }
+    .logo a h2 {
+        text-align: left;
+        margin-left: 50px;
+    }
+    .menu {
+        width: 100%;
+
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu ul {
+        margin-left: 40px;
+        text-align: left;
+    }
+    .menu ul{
+        display: none;
+          opacity: 0;
+          visibility: hidden;
+      }
+      .menu .bar:checked ~ ul {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        }
+        .menu-bar{
+        display: block;
+        }
+        
+        .menu .bar{
+            display: block;
+        }
+        .banner {
+            height: 350px;
+        }
+        .banner-text {
+            padding-top: 100px;
+        }
+        .banner-text h1 {
+            font-size: 45px;
+        }
+        .banner-text p {
+            font-size: 17px;
+        }
+        .service p {
+            padding: 0px 20px;
+        }
+        .saime-catagorey h3 {
+            padding-top: 40px;
+        }
+    
+}
+
+@media(max-width:764px){
+
+    .banner {
+        height: 260px;
+    }
+    .banner-text {
+        padding-top: 50px;
+    }
+    .banner-text h1 {
+        font-size: 35px;
+    }
+    .banner-text p {
+        font-size: 15px;
+    }
+    .moto {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact-p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contact {
+        padding-top:0;
+     
+    }
+    .saim-contact {
+        width: 100%;
+        margin-top: 40px;
+    }
+ 
+    .menu ul li a {
+        padding: 12px 10px;
+    }
+}
+
+@media(max-width:576px){
+    .menu ul {
+        margin-left: 20px;
+
+    }
+    .menu ul li a {
+        padding: 8px 10px;
+    }
+    .logo a h2 {
+        margin-left: 30px;
+        font-size: 22px;
+    }
+
+    .banner-text h1 {
         font-size: 30px;
-        margin-bottom: 10px;
     }
-    .service-title h3 {
-        font-size: 18px;
+    .banner-text p {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+    .banner-text a {
+        padding: 12px 18px;
+        font-size: 12px;
+
+    }
+    .saime-catagorey {
+        width: 100%;
+    }
+    .saime-catagorey h3 {
+        padding-top: 30px;
+    }
+    
+    .contact-us h1 {
+        font-size: 34px;
+    }
+    .social ul li a i {
+ 
+        padding: 0 12px;
+
+    }
+    footer {
+        font-size: 13px;
     }
 }
