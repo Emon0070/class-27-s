@@ -1,17 +1,257 @@
-@media (max-width:768px){
-    .video-content h1 {
-        font-size: 26px;
-    }
-    .video-content p {
-        font-size: 18px;
-
-    }
-
-    .service-title h1 {
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    .service-title h3 {
-        font-size: 18px;
-    }
+*{
+    padding: 0;
+    margin: 0;
 }
+
+.clear-fex::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* logo-menu */
+
+.header{
+    background: #22c3a3;
+    padding: 10px;
+}
+.logo{
+    width: 25;
+    width: 20%;
+    float: left;
+}
+.logo a h2{
+    text-align: center;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.logo a{
+    text-decoration: none;
+
+}
+.menu{
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+.menu ul{
+   
+    margin-right: 100px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ddd;
+    display: inline-block;
+    transition: .5s;
+ 
+}
+
+.menu ul li a:hover{
+    color: #fff;
+}
+
+.banner{
+    background: url(https://i.ibb.co/P4xTd4s/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+
+.banner-text{
+    text-align: center;
+    padding-top: 280px;
+    /* margin: auto; */
+}
+.banner-text h1{
+    text-transform: uppercase;
+    font-size: 55px;
+    color: #fff;
+}
+.banner-text p{
+    color: #fff;
+    padding-top: 9px;
+    padding-bottom: 40px;
+    font-size: 19px;
+}
+.banner-text a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+ font-family: sans-serif;
+ transition: .5s;
+ border-radius: 5px;
+}
+.banner-text a:hover{
+background: #fff;
+color: #0bbf9c;
+}
+
+
+.service h1{
+    text-align: center;
+    color: #555555;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.service p{
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #777777;
+}
+
+.catagory{
+    width: 90%;
+    margin: auto;
+    padding: -t;
+    padding-top: 150px;
+}
+.saime-catagorey{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.saime-catagorey i{
+    font-size: 50px;
+    color: #0dbf9b;
+}
+.saime-catagorey h3{
+    text-transform: capitalize;
+    padding-top: 50px;
+    font-family: sans-serif;
+    color: #848484;
+}
+.saime-catagorey p{
+    padding: 20px 30px;
+    color: #777777;
+}
+hr{
+    margin-bottom: 50px;
+    margin-top: 100px;
+    color: #0dbf9b;
+    background: #0dbf9b;
+    border: 1px solid #0dbf9b;
+
+}
+
+.about-us{
+    padding-bottom: 100px;
+}
+.about-us h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #535252;
+}
+.moto{
+    text-align: center;
+    /* padding: 28px; */
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+}
+.about-content{
+    width: 95%;
+    margin: auto;
+}
+
+.about-img {
+    float: left;
+    width: 40%;
+}
+.about-img img{
+    max-width: 100%;
+    /* height: 384px; */
+}
+.about-text{
+    width: 60%;
+    float: right;
+    margin: 0px;
+    padding-top: 15px;
+}
+.about-text h2{
+    font-size: 22px;
+    padding-left: 69px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #666666;
+}
+.about-text p{
+    font-family: sans-serif;
+    padding: 10px 0 10px 69px;
+    color: #666666;
+}
+
+.contact-us{
+    background: #f6f6f6;
+    padding-bottom: 100px;
+}
+.contact-us h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 100px;
+    font-size: 40px;
+    color: #4f4f4f;
+}
+.contact-p{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    color: #777777;
+}
+
+.contact{
+    padding-top: 100px;
+    /* line-height: 98px; */
+    width: 70%;
+    margin: auto;
+}
+
+.saim-contact{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+.saim-contact i{
+    font-size: 20px;
+    color: #0dbf9b;
+}
+.saim-contact p{
+    /* padding: 11px 79px; */
+    padding: 10px;
+    color: #777777;
+}
+
+.saim-contact span{
+    
+color: #777777;
+}
+
+.social ul{
+    text-align: center;
+    background: #0dbf9b;
+    padding: 15px;
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a i{
+    color: #fff;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+footer{background: #222222;
+text-align: center;
+padding: 13px;
+color: #4f4f4f;
+font-family: sans-serif;
+font-size: 15px;}
